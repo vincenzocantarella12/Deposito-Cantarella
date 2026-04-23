@@ -1,0 +1,190 @@
+class UnitaMilitare:
+    
+    
+    def __init__(self, nome, numero_soldati):
+        self.nome = nome
+        self.numero_soldati = numero_soldati
+        
+        
+# METODI       
+
+
+    def muovi(self):
+        print(f"{self.nome} si sta muovendo.")
+
+    def attacca(self):
+        print(f"{self.nome} attacca il nemico")
+
+    def ritira(self):
+        print(f"{self.nome} si ritira strategicamente.")
+        
+        
+# METODI SPECIALI
+
+       
+        
+
+    def __str__(self):
+        return f"{self.nome} ({self.numero_soldati} soldati)"
+
+    def __repr__(self):
+        return f"UnitaMilitare('{self.nome}', {self.numero_soldati})"
+
+    def __len__(self):
+        return self.numero_soldati
+
+    def __eq__(self, altro):
+        return isinstance(altro, UnitaMilitare) and self.nome == altro.nome and self.numero_soldati == altro.numero_soldati
+
+    def __getattribute__(self, name):
+        return super().__getattribute__(name)
+    
+    
+    
+# CLASSI DERIVATE
+  
+
+
+
+class Fanteria(UnitaMilitare):
+    
+
+    def costruisci_trincea(self):
+        print(f"{self.nome} costruisce una trincea.")
+
+    def __str__(self):
+        return f"[Fanteria] {self.nome} - {self.numero_soldati} soldati"
+
+
+
+class Artiglieria(UnitaMilitare):
+    
+
+    def calibra_artiglieria(self):
+        print(f"{self.nome} calibra i cannoni.")
+
+    def __str__(self):
+        return f"[Artiglieria] {self.nome}"
+
+
+
+class Cavalleria(UnitaMilitare):
+
+
+    def esplora_terreno(self):
+        print(f"{self.nome} esplora il terreno.")
+
+    def __repr__(self):
+        return f"Cavalleria('{self.nome}', {self.numero_soldati})"
+
+
+
+class SupportoLogistico(UnitaMilitare):
+
+
+    def rifornisci_unita(self):
+        print(f"{self.nome} rifornisce le truppe.")
+
+    def __len__(self):
+        return self.numero_soldati
+
+
+
+class Ricognizione(UnitaMilitare):
+    
+
+    def conduci_ricognizione(self):
+        print(f"{self.nome} conduce una ricognizione.")
+
+    def __str__(self):
+        return f"[Ricognizione] {self.nome}"
+
+
+
+#CONTROLLO MILITARE
+
+
+
+
+class ControlloMilitare:
+
+    def __init__(self):
+        self.unita_registrate = []
+
+    def registra_unita(self, unita):
+        self.unita_registrate.append(unita)
+
+    def mostra_unita(self):
+        for u in self.unita_registrate:
+            print(u)
+
+    def dettagli_unita(self, nome):
+        for u in self.unita_registrate:
+            if u.nome == nome:
+                print(repr(u))
+                return
+        print("Unità non trovata")
+        
+        
+        
+
+
+f1 = Fanteria("Fanteria Alpha", 100)
+a1 = Artiglieria("Artiglieria Beta", 50)
+c1 = Cavalleria("Cavalleria Gamma", 30)
+s1 = SupportoLogistico("Supporto Delta", 20)
+r1 = Ricognizione("Ricognizione Omega", 10)
+
+controllo = ControlloMilitare()
+
+controllo.registra_unita(f1)
+controllo.registra_unita(a1)
+controllo.registra_unita(c1)
+controllo.registra_unita(s1)
+controllo.registra_unita(r1)
+
+controllo.mostra_unita()
+
+print(len(f1))
+print(f1)
+print(repr(a1))
+
+f1.muovi()
+a1.attacca()
+c1.esplora_terreno()
+s1.rifornisci_unita()
+r1.conduci_ricognizione()
+
+controllo.dettagli_unita("Fanteria Alpha")
+
+
+#INPUT PER INSERIRE I DATI (AGGIUNTA)
+
+controllo = ControlloMilitare()
+
+nome = input("Nome unità: ")
+soldati = int(input("Numero soldati: "))
+
+tipo = input("Tipo (f=Fanteria, a=Artiglieria, c=Cavalleria, s=Supporto, r=Ricognizione): ")
+
+if tipo == "f":
+    u1 = Fanteria(nome, soldati)
+elif tipo == "a":
+    u1 = Artiglieria(nome, soldati)
+elif tipo == "c":
+    u1 = Cavalleria(nome, soldati)
+elif tipo == "s":
+    u1 = SupportoLogistico(nome, soldati)
+elif tipo == "r":
+    u1 = Ricognizione(nome, soldati)
+else:
+    print("Tipo non valido")
+    exit()
+
+controllo.registra_unita(u1)
+
+controllo.mostra_unita()
+
+print(len(u1))
+print(u1)
+print(repr(u1))
