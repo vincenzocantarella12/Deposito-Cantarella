@@ -1,0 +1,5 @@
+[ACQUISTO] vincenzo - pere - 5.0€
+[ORDINE] vincenzo - mele - QTA: 5
+[ACQUISTO] vincenzo - banane - 10.0€
+[ACQUISTO] vincenzo - fragole - 250.0€
+[ACQUISTO] vincenzo - kiwi - 8.0€
