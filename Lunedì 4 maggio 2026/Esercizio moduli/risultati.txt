@@ -1,0 +1,158 @@
+=== RISULTATI ANALISI VENDITE ===
+Data report: 04/05/2026 10:41
+
+Totale vendite: 15
+Media vendite: 15.00
+
+Nessuna vendita sopra la media
+
+--- FINE REPORT ---
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:43
+
+Totale vendite: 5
+Media vendite: 5.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:43
+
+Totale vendite: 185
+Media vendite: 185.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:43
+
+Totale vendite: 25848
+Media vendite: 25848.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:44
+
+Totale vendite: 10
+Media vendite: 10.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:45
+
+Totale vendite: 20
+Media vendite: 20.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:45
+
+Totale vendite: 30
+Media vendite: 30.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:45
+
+Totale vendite: 40
+Media vendite: 40.00
+
+Nessuna vendita sopra la media
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:45
+
+Totale vendite: 120
+Media vendite: 40.00
+
+Vendite sopra la media:
+50
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 10:57
+
+Totale vendite: 220
+Media vendite: 44.00
+
+Vendite sopra la media:
+55
+58
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 11:20
+
+Totale vendite: 95
+Media vendite: 31.67
+
+Vendite sopra la media:
+50
+44
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 11:20
+
+Totale vendite: 49
+Media vendite: 16.33
+
+Vendite sopra la media:
+44
+
+----------------------
+
+=== NUOVA ANALISI ===
+Data report: 04/05/2026 11:21
+
+Totale vendite: 31
+Media vendite: 10.33
+
+Vendite sopra la media:
+22
+
+----------------------
+NUOVA ANALISIData report: 04/05/2026 11:22
+
+Totale vendite: 14
+Media vendite: 4.67
+
+Vendite sopra la media:
+5
+5
+
+----------------------
+
+-NUOVA ANALISI-
+Data report: 04/05/2026 11:23
+
+Totale vendite: 14
+Media vendite: 4.67
+
+Vendite sopra la media:
+5
+5
+
+----------------------
