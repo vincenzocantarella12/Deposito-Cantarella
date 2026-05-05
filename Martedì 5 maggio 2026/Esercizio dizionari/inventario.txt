@@ -1,0 +1,25 @@
+Margherita,5.5,19
+Marinara,4.5,15
+Diavola,7.0,12
+Quattro Stagioni,8.5,10
+Capricciosa,8.0,10
+Quattro Formaggi,8.0,10
+Bufala,7.5,8
+Prosciutto e Funghi,7.5,10
+Vegetariana,7.0,10
+Boscaiola,8.0,8
+Wurstel e Patatine,6.5,12
+Tonno e Cipolla,7.0,10
+Salsiccia e Friarielli,8.5,8
+Pizza al Salame Piccante,7.5,10
+Calzone Classico,7.0,10
+Coca Cola,2.0,30
+Fanta,2.0,30
+Sprite,2.0,25
+Acqua Naturale,1.0,40
+Acqua Frizzante,1.0,40
+Birra,3.5,20
+Arancini,5.0,40    # aggiunto da me per prova
+
+# inventario che ho creato da zero (come admin) a differenza di clienti che si autocompila 
+
